@@ -9,6 +9,7 @@
     }
         .form-row:last-of-type{
             margin-bottom: 0;
+            margin-top:  30px;
         }
         /* .margin-bottom-zero {
             margin-bottom: 0;
@@ -18,22 +19,31 @@
             width: 100%;
             /* Patikrinti tarpa tarp labelio ir inputo */
             margin-bottom: 5px;
-            font-size: 13px;
+            font-size: 10px;
             line-height: 15px;
             text-transform: uppercase;
-
+            letter-spacing: 1px;
         }
         .input {
             display: inline-block;
             width: 100%;
-            font-size: 17px;
+            font-size: 13px;
             line-height: 25px;
+            padding-left: 3px;
             border: none;
             border-bottom: 1px solid black;
-
+            letter-spacing: 1px;
         }
         .input:focus {
-            outline: 1px solid #0069ba;
+            outline: none;
+
+            /* Nustato shadow kaip outline, bet galima uzdet border radius, kad suapvalintu */
+            box-shadow: 0 0 1px black;
+            border-radius: 5px;
+        }
+        .input:focus::placeholder{
+            /* paslepia placeholderi on focus */
+            color: transparent;
         }
         .form-row > .text {
             display: inline-block;
@@ -46,6 +56,9 @@
             padding: 10px;
             line-height: 20px;
             font-size: 18px;
-            color: blue;
+            color: #0069BA;
             text-decoration: none;
+        }
+        .form-row > .link:hover {
+            text-shadow: 0 0 1px #0069BA;
         }

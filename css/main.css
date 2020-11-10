@@ -1,16 +1,19 @@
 body {
-    background-color: #02b7d9;
+    background-color: #4BB3C9;
+    background-image: url(../img/back.JPG);
+    background-size: cover;
 }
     .container {
         display: inline-block;
-        width: 800px;
+        width: 700px;
         margin-top: 100px;
-        margin-left: calc( (100% - 800px) / 2 );
+        margin-left: calc( (100% - 700px) / 2 );
         position: relative;
     }
         .left-column {
             background-color: #0069b9;
             background-image: url(../img/left.png);
+            background-size: cover;
             display: inline-block;
             /* priverstinai floatina i kaire, nes inline blockas  turi 4px tarpa kurio keisti negalima
                 todel netelpa i containeri ir persimeta i kita eile */
@@ -25,6 +28,8 @@ body {
             .page-title {
                 display: inline-block;
                 width: 100%;
+                font-size: 30px;
+                font-weight: 100;
             }
             .bottom-links {
                 display: inline-block;
@@ -33,9 +38,11 @@ body {
                 bottom: 20px;
                 left: 40px;
                 right: 40px;
+                opacity: 70%;
+                font-size: 14px;
             }
                 .bottom-links > .link {
-                    color: #fff;
+                    color: #fff;                    
                 }
                 .bottom-links > .text {
                 }
@@ -58,4 +65,8 @@ body {
                 position: absolute;
                 top: 0;
                 right: 0;
+            }
+            .close:hover {
+                cursor: pointer;
+                font-weight: bold;
             }
