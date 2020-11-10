@@ -1,0 +1,55 @@
+body {
+    background-color: #02b7d9;
+}
+    .container {
+        display: inline-block;
+        width: 800px;
+        margin-top: 100px;
+        margin-left: calc( (100% - 800px) / 2 );
+    }
+        .left-column {
+            background-color: #0069b9;
+            display: inline-block;
+            /* priverstinai floatina i kaire, nes inline blockas  turi 4px tarpa kurio keisti negalima
+                todel netelpa i containeri ir persimeta i kita eile */
+            float: left;
+            width: 40%;
+            margin-top: 20px;
+        }
+            .page-title {
+            }
+            .bottom-links {
+            }
+                .bottom-links > .link {
+                }
+                .bottom-links > .text {
+                }
+        .right-column {
+            background-color: white;
+            display: inline-block;
+            float: left;
+            width: 60%;
+            padding: 60px;
+        }
+            .class {
+            }
+            .form {
+                background-color: aqua;
+            }
+                .form-row {
+                }
+                    .label {
+
+                    }
+                    .input {
+
+                    }
+                    .btn {
+
+                    }
+                    .form-row > .text {
+
+                    }
+                    .form-row > .link {
+
+                    }
