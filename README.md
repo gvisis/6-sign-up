@@ -12,3 +12,5 @@ Design: [Picture](https://gvisis.github.io/6-sign-up/signup.png)
 ## Author
 #### [Gvidas](https://github.com/gvisis)
 
+## Date
+#### 11/10/2020
