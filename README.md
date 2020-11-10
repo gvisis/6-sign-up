@@ -2,6 +2,7 @@
 ### BIT.LT Group 19 Project
 
 Web: https://gvisis.github.io/6-sign-up/
+
 Design: [Picture](https://gvisis.github.io/6-sign-up/signup.png)
 
 ## Project features
