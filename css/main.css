@@ -10,6 +10,7 @@ body {
     }
         .left-column {
             background-color: #0069b9;
+            background-image: url(../img/left.png);
             display: inline-block;
             /* priverstinai floatina i kaire, nes inline blockas  turi 4px tarpa kurio keisti negalima
                 todel netelpa i containeri ir persimeta i kita eile */
