@@ -10,19 +10,48 @@ body * {
 body {
     background-color: #02b7d9;
 }
-    main {
+    .container {
         display: inline-block;
         width: 800px;
         margin-top: 100px;
         margin-left: calc( (100% - 800px) / 2 );
     }
-        div {
+        .left-column {
             display: inline-block;
             float: left;
             width 40%;
         }
-        div {
+            .page-title {
+            }
+            .bottom-links {
+            }
+                .bottom-links > .link {
+                }
+                .bottom-links > .text {
+                }
+        .right-column {
             display: inline-block;
             float: left;
             width 60%;
         }
+            .class {
+            }
+            .form {
+            }
+                .form-row {
+                }
+                    .label {
+
+                    }
+                    .input {
+
+                    }
+                    .btn {
+
+                    }
+                    .form-row > .text {
+
+                    }
+                    .form-row > .link {
+
+                    }
