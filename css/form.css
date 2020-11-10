@@ -28,6 +28,12 @@
             width: 100%;
             font-size: 17px;
             line-height: 25px;
+            border: none;
+            border-bottom: 1px solid black;
+
+        }
+        .input:focus {
+            outline: 1px solid #0069ba;
         }
         .form-row > .text {
             display: inline-block;

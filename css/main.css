@@ -13,7 +13,6 @@ body {
             display: inline-block;
             /* priverstinai floatina i kaire, nes inline blockas  turi 4px tarpa kurio keisti negalima
                 todel netelpa i containeri ir persimeta i kita eile */
-            float: left;
             width: 40%;
             padding: 40px;
             padding-bottom: 20px;
@@ -32,6 +31,7 @@ body {
                 position: absolute;
                 bottom: 20px;
                 left: 40px;
+                right: 40px;
             }
                 .bottom-links > .link {
                     color: #fff;
@@ -52,8 +52,9 @@ body {
                 /* reguliuoja position absolute ilgi */
                 width: 60px;
                 line-height: 60px;
+                text-align: center;
+                font-size: 18px;
                 position: absolute;
                 top: 0;
                 right: 0;
-                background-color: red;
             }
