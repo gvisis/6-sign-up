@@ -13,10 +13,10 @@ body {
     }
     .container {
         display: inline-block;
-        width: 700px;
+        width: 800px;
         position: absolute;
         /* top: calc((100vh - 460px) / 2);
-        left: calc( (100% - 700px) / 2 ); */
+        left: calc( (100% - 800px) / 2 ); */
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
