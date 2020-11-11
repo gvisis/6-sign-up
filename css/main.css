@@ -1,19 +1,31 @@
 body {
     background-color: #4BB3C9;
-    background-image: url(../img/back.JPG);
-    background-size: cover;
 }
+    .background {
+        background-image: url(../img/left.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(4px);
+
+        /* aukstis konstruojasi tik atsiradus turiniui. Todel 100% be turinio neveiktu */
+        height: 100vh;
+    }
     .container {
         display: inline-block;
         width: 700px;
-        margin-top: 100px;
-        margin-left: calc( (100% - 700px) / 2 );
-        position: relative;
+        position: absolute;
+        /* top: calc((100vh - 460px) / 2);
+        left: calc( (100% - 700px) / 2 ); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
         .left-column {
             background-color: #0069b9;
             background-image: url(../img/left.png);
             background-size: cover;
+            background-position: center;
             display: inline-block;
             /* priverstinai floatina i kaire, nes inline blockas  turi 4px tarpa kurio keisti negalima
                 todel netelpa i containeri ir persimeta i kita eile */
